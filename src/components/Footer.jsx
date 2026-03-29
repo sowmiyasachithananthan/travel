@@ -24,8 +24,8 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Legal</h4>
           <ul>
-            <li><a href="#privacy">Privacy Policy</a></li>
-            <li><a href="#terms">Terms &amp; Conditions</a></li>
+            <li><Link to="/privacy">Privacy Policy</Link></li>
+            <li><Link to="/terms">Terms &amp; Conditions</Link></li>
           </ul>
         </div>
         <div className="footer-section">
@@ -45,5 +45,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-

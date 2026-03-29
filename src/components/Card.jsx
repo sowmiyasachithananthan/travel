@@ -26,5 +26,3 @@ const Card = ({ image, title, subtitle, description, tag, price, duration, child
 };
 
 export default Card;
-
-

@@ -67,7 +67,7 @@ a {
 }
 
 .section {
-  padding: 3.5rem 0;
+  padding: 3rem 0;
 }
 
 .section-alt {
@@ -80,17 +80,17 @@ a {
 
 .section-title {
   font-size: 1.75rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .section-subtitle {
   color: var(--muted);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .grid-3 {
@@ -292,12 +292,12 @@ a {
 }
 
 .hero {
-  padding: 4.5rem 0 3.5rem;
+  padding: 5rem 0 4rem;
 }
 
 .hero-grid {
   display: grid;
-  gap: 2.5rem;
+  gap: 3rem;
 }
 
 .hero-text h1 {
@@ -308,19 +308,19 @@ a {
 
 .hero-text p {
   color: var(--muted);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .hero-stats {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .hero-stats h3 {
@@ -401,24 +401,24 @@ a {
 }
 
 .card-content {
-  padding: 0.95rem 1rem 1.1rem;
+  padding: 1.2rem 1.1rem 1.3rem;
   display: flex;
   flex-direction: column;
 }
 
 .card-title {
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.4rem;
   font-size: 1.05rem;
 }
 
 .card-subtitle {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.6rem;
   color: var(--muted);
   font-size: 0.9rem;
 }
 
 .card-description {
-  margin: 0 0 0.8rem;
+  margin: 0 0 1rem;
   color: var(--muted);
   font-size: 0.9rem;
   min-height: 2.7rem; /* roughly two lines of text */
@@ -428,7 +428,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.9rem;
   font-size: 0.9rem;
 }
 
@@ -447,7 +447,7 @@ a {
 }
 
 .feature {
-  padding: 1.2rem 1.2rem 1rem;
+  padding: 1.5rem 1.5rem 1.2rem;
   border-radius: 1rem;
   background: radial-gradient(circle at top left, var(--primary-soft), var(--bg-alt));
   border: 1px solid var(--border);
@@ -455,12 +455,12 @@ a {
 
 .feature-icon {
   font-size: 1.4rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
 .feature h3 {
   margin-top: 0;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .feature p {
@@ -471,13 +471,13 @@ a {
 
 .stats-grid {
   display: grid;
-  gap: 1.8rem;
+  gap: 2.2rem;
 }
 
 .stats {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .stat {
@@ -503,7 +503,7 @@ a {
 }
 
 .testimonial {
-  padding: 1.2rem 1.1rem;
+  padding: 1.5rem 1.3rem;
   border-radius: 1rem;
   background: #ffffff;
   border: 1px solid rgba(148, 163, 184, 0.35);
@@ -520,7 +520,7 @@ a {
 }
 
 .testimonial h4 {
-  margin: 0.9rem 0 0.1rem;
+  margin: 1.1rem 0 0.2rem;
 }
 
 .testimonial span {
@@ -535,11 +535,11 @@ a {
 }
 
 .cta-content p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .page-banner {
-  padding: 4.3rem 0 2.5rem;
+  padding: 5rem 0 3rem;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -549,7 +549,7 @@ a {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.95));
+  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.6));
 }
 
 .page-banner .container {
@@ -558,7 +558,7 @@ a {
 }
 
 .page-banner h1 {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.6rem;
 }
 
 .page-banner p {
@@ -586,7 +586,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 2.2rem;
 }
 
 .filter-tab {
@@ -610,7 +610,7 @@ a {
 }
 
 .offer-card {
-  padding: 1.1rem 1.2rem;
+  padding: 1.4rem 1.5rem;
   border-radius: 1rem;
   background: #ffffff;
   border: 1px dashed rgba(148, 163, 184, 0.6);
@@ -635,14 +635,14 @@ a {
 .achievements-grid,
 .contact-grid {
   display: grid;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .team-card {
   text-align: center;
   background: #ffffff;
   border-radius: 1rem;
-  padding: 1.1rem;
+  padding: 1.4rem;
   border: 1px solid rgba(148, 163, 184, 0.35);
 }
 
@@ -656,11 +656,11 @@ a {
   height: 96px;
   border-radius: 999px;
   object-fit: cover;
-  margin: 0 auto 0.7rem;
+  margin: 0 auto 0.9rem;
 }
 
 .team-card h3 {
-  margin: 0 0 0.2rem;
+  margin: 0 0 0.3rem;
 }
 
 .team-card p {

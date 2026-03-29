@@ -9,5 +9,3 @@ const Button = ({ children, variant = 'primary', ...rest }) => {
 };
 
 export default Button;
-
-
