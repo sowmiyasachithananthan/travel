@@ -58,9 +58,6 @@ const Navbar = ({ theme, toggleTheme }) => {
             onClick={() => setIsOpen((prev) => !prev)}
             aria-label="Toggle navigation menu"
           >
-            <span />
-            <span />
-            <span />
           </button>
         </div>
       </div>
