@@ -73,7 +73,7 @@ const Contact = () => {
             <h2 className="section-title">Contact Details</h2>
             <p>Email: support@travelx.com</p>
             <p>Phone: +91 9876543210</p>
-            <p>Address: Random Gadgets, 7, Twenty Star Complex, 2nd line, 2nd Line Beach Rd, Parry's, George Town, Chennai, Tamil Nadu 600001</p>
+            <p>Address: Travelx, 7, Twenty Star Complex, 2nd line, 2nd Line Beach Rd, Parry's, George Town, Chennai, Tamil Nadu 600001</p>
 
             <div className="map-placeholder">
               <iframe
