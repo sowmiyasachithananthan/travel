@@ -80,30 +80,30 @@ const Home = () => {
               image="https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg"
               title="European Explorer"
               subtitle="10 days • 4 countries"
-              price="$1,499"
+              price="₹1,24,900"
               duration="10 Days"
               tag="Best Seller"
             >
-              <Button>Book Now</Button>
+              <Button onClick={() => navigate('/packages')}>View Details</Button>
             </Card>
             <Card
               image="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg"
               title="Tropical Escape"
               subtitle="7 days all-inclusive in Bali"
-              price="$999"
+              price="₹83,200"
               duration="7 Days"
               tag="Limited Offer"
             >
-              <Button>Book Now</Button>
+              <Button onClick={() => navigate('/packages')}>View Details</Button>
             </Card>
             <Card
               image="https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg"
               title="Alpine Adventure"
               subtitle="5 days in the Swiss Alps"
-              price="$1,199"
+              price="₹99,900"
               duration="5 Days"
             >
-              <Button>Book Now</Button>
+              <Button onClick={() => navigate('/packages')}>View Details</Button>
             </Card>
           </div>
         </div>

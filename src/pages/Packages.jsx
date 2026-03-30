@@ -9,7 +9,7 @@ const packagesData = [
     name: 'Budget Europe Escape',
     category: 'Budget',
     image: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg',
-    price: '$799',
+    price: '₹66,600',
     duration: '7 Days',
     description: 'Affordable Europe highlights with comfortable stays.'
   },
@@ -18,7 +18,7 @@ const packagesData = [
     name: 'Luxury Maldives Retreat',
     category: 'Luxury',
     image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg',
-    price: '$2,499',
+    price: '₹2,08,200',
     duration: '5 Days',
     description: 'Overwater villas, private dinners, and spa experiences.'
   },
@@ -27,7 +27,7 @@ const packagesData = [
     name: 'Family Thailand Fun',
     category: 'Family',
     image: 'https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg',
-    price: '$1,299',
+    price: '₹1,08,200',
     duration: '8 Days',
     description: 'Activities for all ages with family-friendly hotels.'
   },
@@ -36,7 +36,7 @@ const packagesData = [
     name: 'Luxury Alpine Escape',
     category: 'Luxury',
     image: 'https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg',
-    price: '$2,099',
+    price: '₹1,74,200',
     duration: '6 Days',
     description: 'Ski passes, gourmet dining, and mountain spa access.'
   },
@@ -45,7 +45,7 @@ const packagesData = [
     name: 'Budget City Hoppers',
     category: 'Budget',
     image: 'https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg',
-    price: '$599',
+    price: '₹49,900',
     duration: '5 Days',
     description: 'Discover major cities on a tight budget.'
   },
@@ -54,7 +54,7 @@ const packagesData = [
     name: 'Family Euro Discovery',
     category: 'Family',
     image: 'https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg',
-    price: '$1,899',
+    price: '₹1,57,900',
     duration: '9 Days',
     description: 'Family-friendly itinerary with guided tours.'
   }
